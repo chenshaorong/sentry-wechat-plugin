@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="sentry-wechat-plugin",
-    version='1.0',
+    version='1.01',
     author='shaorong.chen',
     author_email='shaorong.chen@aliyun.com',
     url='https://github.com/chenshaorong/sentry-wechat-plugin',
