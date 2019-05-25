@@ -37,7 +37,7 @@ class WeChatPlugin(NotificationPlugin):
     title = 'wechat'
     slug = 'wechat'
     description = u'Sentry微信告警插件'
-    version = pkg_resources.get_distribution("sentry_wechat").version
+    version = pkg_resources.get_distribution("sentry_wechat_plugin").version
     author = 'shaorong.chen'
     author_url = 'https://github.com/chenshaorong'
     resource_links = [
