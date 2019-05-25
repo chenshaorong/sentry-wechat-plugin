@@ -41,7 +41,7 @@ class WeChatPlugin(NotificationPlugin):
     author = 'shaorong.chen'
     author_url = 'https://github.com/chenshaorong'
     resource_links = [
-        ('Source', 'https://github.com/chenshaorong/sentry-wechat'),
+        ('Source', 'https://github.com/chenshaorong/sentry-wechat-plugin'),
     ]
 
     # Configuration specifics

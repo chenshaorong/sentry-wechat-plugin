@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="sentry-wechat",
+    name="sentry-wechat-plugin",
     version='1.0',
     author='shaorong.chen',
     author_email='shaorong.chen@aliyun.com',
-    url='https://github.com/chenshaorong/sentry-wechat',
+    url='https://github.com/chenshaorong/sentry-wechat-plugin',
     description='A Sentry extension which send errors stats to WeChat.',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -22,6 +22,7 @@ setup(
         'sentry>=9.0.0',
         'requests',
         'pytz',
+        'django',
     ],
     entry_points={
         'sentry.plugins': [
